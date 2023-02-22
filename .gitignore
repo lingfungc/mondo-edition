@@ -42,3 +42,6 @@
 .DS_Store
 .env*
 .env*
+
+# Ignore credentials in Ruby on Rails
+credentials.yml.enc
