@@ -93,4 +93,7 @@ Rails.application.configure do
 
   # Cloudinary
   config.active_storage.service = :cloudinary
+
+  # Secret Key Base
+  config.secret_key_base = ENV["SECRET_KEY_BASE"]
 end
