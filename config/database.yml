@@ -84,3 +84,4 @@ production:
   database: Mondo_production
   username: Mondo
   password: <%= ENV["MONDO_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
