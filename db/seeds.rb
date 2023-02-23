@@ -21,8 +21,8 @@ recipes = [
     average_rating: 5.0,
     categories: ["Main"],
     times: { prep: 20,
-            cook: 70,
-            total: 90 },
+             cook: 70,
+             total: 90 },
     ingredients: ["2 eggplant aubergine, large",
                   "3 tablespoon olive oil for frying, or more as needed",
                   "1 tablespoon olive oil",
@@ -64,8 +64,8 @@ recipes = [
     average_rating: 4.3,
     categories: ["Pescetarian"],
     times: { prep: 10,
-            cook: 0,
-            total: 10 },
+             cook: 0,
+             total: 10 },
     ingredients: [
       "1/4 lb white fish 110g, as a chunk, ideally even in shape - I used hake loin",
       "1 tablespoon lime juice",
@@ -93,8 +93,8 @@ recipes = [
     average_rating: 4.6,
     categories: ["Puddings"],
     times: { prep: 15,
-            cook: 45,
-            total: 60 },
+             cook: 45,
+             total: 60 },
     ingredients: [
       "2 egg whites large",
       "1/2 cup granulated sugar 100g (3 1/2oz)",
@@ -126,8 +126,8 @@ recipes = [
     average_rating: 4.4,
     categories: ["Vegetarian"],
     times: { prep: 5,
-            cook: 10,
-            total: 15 },
+             cook: 10,
+             total: 15 },
     ingredients: [
       "1/2 onion small",
       "1/4 red pepper or yellow/orange",
@@ -161,8 +161,8 @@ recipes = [
     average_rating: 3.7,
     categories: ["Vegetarian", "Puddings"],
     times: { prep: 45,
-            cook: 5,
-            total: 50 },
+             cook: 5,
+             total: 50 },
     ingredients: [
       "½ cup cooked glutinous rice flour 55g",
       "¼ cup confectioners sugar 35g, icing sugar",
@@ -197,8 +197,8 @@ recipes = [
     average_rating: 4.2,
     categories: ["Vegetarian", "Vegan", "Lactose", "Gluten"],
     times: { prep: 20,
-            cook: 40,
-            total: 60 },
+             cook: 40,
+             total: 60 },
     ingredients: [
       "2 lb stewing beef",
       "1 beef stock cube (or chicken stock cube)",
@@ -243,8 +243,8 @@ recipes = [
     average_rating: 4.2,
     categories: ["Vegetarian", "Puddings"],
     times: { prep: 60,
-            cook: 40,
-            total: 100 },
+             cook: 40,
+             total: 100 },
     ingredients: [
       "4 large eggs",
       "1 cup sugar",
@@ -284,8 +284,8 @@ recipes = [
     average_rating: 3.9,
     categories: ["Vegetarian", "Vegan", "Gluten", "Lactose"],
     times: { prep: 20,
-            cook: 10,
-            total: 30 },
+             cook: 10,
+             total: 30 },
     ingredients: [
       "1 onion, chopped",
       "½ cup bell pepper, chopped",
@@ -328,8 +328,8 @@ recipes = [
     average_rating: 4.8,
     categories: ["Lactose"],
     times: { prep: 90,
-            cook: 90,
-            total: 180 },
+             cook: 90,
+             total: 180 },
     ingredients: [
       "2½ kg meat flank steak, flap, skirt steak, tenderloin. But always choose the ribs and a cut of meat",
       "6 chorizo sausages",
@@ -376,8 +376,8 @@ recipes = [
     average_rating: 4.1,
     categories: ["Lactose", "Gluten"],
     times: { prep: 10,
-            cook: 60,
-            total: 70 },
+             cook: 60,
+             total: 70 },
     ingredients: [
       "2 lbs pork belly",
       "2 tablespoons garlic minced or crushed",
@@ -411,8 +411,8 @@ recipes = [
     average_rating: 4.1,
     categories: ["Vegetarian", "Vegan", "Lactose", "Gluten"],
     times: { prep: 20,
-            cook: 30,
-            total: 50 },
+             cook: 30,
+             total: 50 },
     ingredients: [
       "½ cup vegetable oil",
       "20 dried red chilies, mild, preferably goondu milagi, seeded and broken in 2",
@@ -445,8 +445,8 @@ recipes = [
     average_rating: 4.8,
     categories: ["Main"],
     times: { prep: 20,
-            cook: 20,
-            total: 40 },
+             cook: 20,
+             total: 40 },
     ingredients: [
       "500 grams vermicelli rice noodles",
       "7 cups unsalted chicken broth",
@@ -525,8 +525,8 @@ recipes = [
     average_rating: 100,
     categories: ["Vegetarian"],
     times: { prep: 20,
-            cook: 10,
-            total: 30 },
+             cook: 10,
+             total: 30 },
     ingredients: ["Dough",
                   "Tomato",
                   "Mozzerella",
@@ -553,8 +553,8 @@ recipes = [
     average_rating: 5.0,
     categories: ["Vegetarian"],
     times: { prep: 15,
-            cook: 40,
-            total: 55 },
+             cook: 40,
+             total: 55 },
     ingredients: [
       "19 oz yuca 550g, approx 15oz-1lb/425-450g peeled and trimmed weight",
       "½ teaspoon salt approx, to taste",
@@ -585,8 +585,8 @@ recipes = [
     average_rating: 2.7,
     categories: ["Lactose"],
     times: { prep: 20,
-            cook: 20,
-            total: 40 },
+             cook: 20,
+             total: 40 },
     ingredients: [
       "1 beef heart",
       "1/2 cup aji panca paste",
@@ -622,8 +622,8 @@ recipes = [
     average_rating: 3.6,
     categories: ["Pescetarian", "Lactose"],
     times: { prep: 15,
-            cook: 20,
-            total: 35 },
+             cook: 20,
+             total: 35 },
     ingredients: [
       "2 1/2 tbsp Kashmiri chilli powder",
       "1 tbsp coriander",
@@ -674,8 +674,8 @@ recipes = [
     average_rating: 3.2,
     categories: ["Vegetarian"],
     times: { prep: 10,
-            cook: 40,
-            total: 50 },
+             cook: 40,
+             total: 50 },
     ingredients: [
       "3 ounces dried quinoa",
       "1 large carrot",
@@ -708,8 +708,8 @@ recipes = [
     average_rating: 4.7,
     categories: ["Vegetarian"],
     times: { prep: 60,
-            cook: 20,
-            total: 80 },
+             cook: 20,
+             total: 80 },
     ingredients: [
       "3 medium green plantains, unpeeled",
       "1/2 teaspoon kosher salt, plus more to taste",
@@ -736,16 +736,15 @@ recipes = [
 
 # Create country and dish with the hash above
 recipes.each do |r|
-
   countries = Country.all
   if countries.find { |c| c.name == r[:country] }.nil?
-    country = Country.create!(name: r[:country], story: r[:country_bio], address: r[:country])
+    country = Country.create(name: r[:country], story: r[:country_bio], address: r[:country])
     puts "Country - #{country.id} #{country.name} - Created!"
   else
     country = countries.find { |c| c.name == r[:country] }
   end
 
-  dish = Dish.create!(
+  dish = Dish.create(
     title: r[:name],
     description: r[:description],
     average_rating: r[:average_rating],
@@ -754,16 +753,20 @@ recipes.each do |r|
     ingredients: r[:ingredients],
     recipe: r[:recipe],
     calories: r[:calories],
-    country: country
+    country: country,
   )
   puts "Dish - #{dish.id} #{dish.title} - Created!"
 
-  file = URI.open(r[:dish_image_url])
+  file = URI.open(r[:dish_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
+                                      "From" => "foo@bar.invalid",
+                                      "Referer" => "http://www.ruby-lang.org/")
   dish.photo.attach(io: file, filename: "#{dish.title}.jpg", content_type: "image/jpg")
   dish.save
   puts "Dish - #{dish.id} #{dish.title} Image - Created!"
 
-  file = URI.open(r[:country_image_url])
+  file = URI.open(r[:country_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
+                                         "From" => "foo@bar.invalid",
+                                         "Referer" => "http://www.ruby-lang.org/")
   country.photo.attach(io: file, filename: "#{country.name}.jpg", content_type: "image/jpg")
   country.save
   puts "Country - #{country.id} #{country.name} Image - Created!"
