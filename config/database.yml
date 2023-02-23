@@ -81,7 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: Mondo_production
-  username: Mondo
-  password: <%= ENV["MONDO_DATABASE_PASSWORD"] %>
   url: <%= ENV['DATABASE_URL'] %>
+  # database: Mondo_production
+  # username: Mondo
+  # password: <%= ENV["MONDO_DATABASE_PASSWORD"] %>
