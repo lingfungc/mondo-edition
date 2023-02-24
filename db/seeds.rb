@@ -744,6 +744,22 @@ recipes.each do |r|
     country = countries.find { |c| c.name == r[:country] }
   end
 
+  puts r[:country_image_url]
+
+  if !URI.open(r[:country_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
+                                     "From" => "foo@bar.invalid",
+                                     "Referer" => "http://www.ruby-lang.org/").nil?
+    puts "okay"
+  end
+
+  file = URI.open(r[:country_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
+                                         "From" => "foo@bar.invalid",
+                                         "Referer" => "http://www.ruby-lang.org/")
+
+  country.photo.attach(io: file, filename: "#{country.name}.jpg", content_type: "image/jpg")
+  country.save
+  puts "Country - #{country.id} #{country.name} Image - Created!"
+
   dish = Dish.create(
     title: r[:name],
     description: r[:description],
@@ -763,13 +779,6 @@ recipes.each do |r|
   dish.photo.attach(io: file, filename: "#{dish.title}.jpg", content_type: "image/jpg")
   dish.save
   puts "Dish - #{dish.id} #{dish.title} Image - Created!"
-
-  file = URI.open(r[:country_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
-                                         "From" => "foo@bar.invalid",
-                                         "Referer" => "http://www.ruby-lang.org/")
-  country.photo.attach(io: file, filename: "#{country.name}.jpg", content_type: "image/jpg")
-  country.save
-  puts "Country - #{country.id} #{country.name} Image - Created!"
 
   puts "- - - next - - -"
 end
