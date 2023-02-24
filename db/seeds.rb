@@ -51,7 +51,7 @@ recipes = [
       "Then gently spread out the rest of the lamb on top, followed by the remaining eggplant/aubergine in a layer and finally the last of the sauce. Sprinkle the cheese you kept back over the top.",
       "Bake for approx 40mins until golden brown on the top.",
     ],
-    dish_image_url: "https://i0.wp.com/www.eatlivecool.com/wp-content/uploads/2018/11/Moussaka-Vertical-5.jpg?w=800&ssl=1",
+    dish_image_url: "https://minimalistbaker.com/wp-content/uploads/2020/12/Easy-Vegan-Moussaka-SQUARE.jpg",
     country: "Greece",
     country_bio: "In common with many other cuisines of the Mediterranean, it is founded on the triad of wheat, olive oil, and wine. It uses vegetables, olive oil, grains, fish, and meat, including pork, poultry, veal and beef, lamb, rabbit, and goat. Other important ingredients include pasta (for example hilopites), cheeses, lemon juice, herbs, olives, and yogurt. Bread made of wheat is ubiquitous; other grains, notably barley, are also used, especially for paximathia. Common dessert ingredients include nuts, honey, fruits, and filo pastries. It continues traditions from Ancient Greek and Byzantine cuisine, while incorporating Balkan and Italian influences.",
     country_image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/510px-Flag_of_Greece.svg.png",
