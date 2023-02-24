@@ -609,7 +609,7 @@ recipes = [
       "Place 3-4 beef cubes on each skewer. Set aside the remaining marinade for basting. Arrange the skewers on the preheated grill. Baste the marinade onto the skewers with a pastry brush or fresh corn husks and grill for 3 minutes. Flip to the other side, baste, and grill until cooked through with a little char, another 3 minutes.",
       "Serve hot with the potatoes, corn, and seasoned aji amarillo.",
     ],
-    dish_image_url: "https://i0.wp.com/tarasmulticulturaltable.com/wp-content/uploads/2016/03/Anticuchos-Peruvian-Beef-Heart-Skewers-2-of-3.jpg?resize=1024%2C680&ssl=1",
+    dish_image_url: "https://www.eatperu.com/wp-content/uploads/2022/01/anticuchos-peruanos.jpg",
     country: "Peru",
     country_bio: "Peruvian cuisine reflects local practices and ingredients including influences mainly from the indigenous population, including the Inca, and cuisines brought by immigrants from Europe (Spanish cuisine, Italian cuisine); Asia (Japanese cuisine and Chinese cuisine); and Africa (Maghrebi cuisine and West African cuisine). Without the familiar ingredients from their home countries, immigrants modified their traditional cuisines by using ingredients available in Peru.",
     country_image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/510px-Flag_of_Peru.svg.png",
@@ -744,14 +744,6 @@ recipes.each do |r|
     country = countries.find { |c| c.name == r[:country] }
   end
 
-  puts r[:country_image_url]
-
-  if !URI.open(r[:country_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
-                                     "From" => "foo@bar.invalid",
-                                     "Referer" => "http://www.ruby-lang.org/").nil?
-    puts "Countrt Image Okay"
-  end
-
   file = URI.open(r[:country_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
                                          "From" => "foo@bar.invalid",
                                          "Referer" => "http://www.ruby-lang.org/")
@@ -773,14 +765,6 @@ recipes.each do |r|
   )
   puts "Dish: #{dish.id} #{dish.title} Created!"
 
-  puts r[:dish_image_url]
-
-  if !URI.open(r[:dish_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
-                                     "From" => "foo@bar.invalid",
-                                     "Referer" => "http://www.ruby-lang.org/").nil?
-    puts "Dish Image Okay"
-  end
-
   file = URI.open(r[:dish_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
                                       "From" => "foo@bar.invalid",
                                       "Referer" => "http://www.ruby-lang.org/")
@@ -788,5 +772,5 @@ recipes.each do |r|
   dish.save
   puts "Dish: #{dish.id} #{dish.title} Image Created!"
 
-  puts "- - - next - - -"
+  puts "- - - Next Dish - - -"
 end
