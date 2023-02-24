@@ -739,7 +739,7 @@ recipes.each do |r|
   countries = Country.all
   if countries.find { |c| c.name == r[:country] }.nil?
     country = Country.create(name: r[:country], story: r[:country_bio], address: r[:country])
-    puts "Country - #{country.id} #{country.name} - Created!"
+    puts "Country #{country.id}: #{country.name} Created!"
   else
     country = countries.find { |c| c.name == r[:country] }
   end
@@ -749,7 +749,7 @@ recipes.each do |r|
   if !URI.open(r[:country_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
                                      "From" => "foo@bar.invalid",
                                      "Referer" => "http://www.ruby-lang.org/").nil?
-    puts "okay"
+    puts "Countrt Image Okay"
   end
 
   file = URI.open(r[:country_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
@@ -758,7 +758,7 @@ recipes.each do |r|
 
   country.photo.attach(io: file, filename: "#{country.name}.jpg", content_type: "image/jpg")
   country.save
-  puts "Country - #{country.id} #{country.name} Image - Created!"
+  puts "Country #{country.id}: #{country.name} Image Created!"
 
   dish = Dish.create(
     title: r[:name],
@@ -771,14 +771,22 @@ recipes.each do |r|
     calories: r[:calories],
     country: country,
   )
-  puts "Dish - #{dish.id} #{dish.title} - Created!"
+  puts "Dish: #{dish.id} #{dish.title} Created!"
+
+  puts r[:dish_image_url]
+
+  if !URI.open(r[:dish_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
+                                     "From" => "foo@bar.invalid",
+                                     "Referer" => "http://www.ruby-lang.org/").nil?
+    puts "Dish Image Okay"
+  end
 
   file = URI.open(r[:dish_image_url], "User-Agent" => "Ruby/#{RUBY_VERSION}",
                                       "From" => "foo@bar.invalid",
                                       "Referer" => "http://www.ruby-lang.org/")
   dish.photo.attach(io: file, filename: "#{dish.title}.jpg", content_type: "image/jpg")
   dish.save
-  puts "Dish - #{dish.id} #{dish.title} Image - Created!"
+  puts "Dish: #{dish.id} #{dish.title} Image Created!"
 
   puts "- - - next - - -"
 end
